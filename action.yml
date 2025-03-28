@@ -1,5 +1,9 @@
 name: 'Keep a Changelog - Release Notes'
 description: 'Queries CHANGELOG.md for a specific release note and save it.'
+author: 7H3LaughingMan
+branding:
+  icon: file-text
+  color: blue
 inputs:
   changelog:
     description: 'The path to the changelog'
