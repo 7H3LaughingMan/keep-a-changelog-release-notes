@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "ncc build index.js -o dist",
+    "changelog": "changelog --format markdownlint --create --release",
     "test": "node index.js"
   },
   "keywords": [],
