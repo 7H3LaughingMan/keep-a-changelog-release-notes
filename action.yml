@@ -1,0 +1,22 @@
+name: 'Keep a Changelog - Release Notes'
+description: 'Queries CHANGELOG.md for a specific release note and save it.'
+inputs:
+  changelog:
+    description: 'The path to the changelog'
+    required: false
+    default: 'CHANGELOG.md'
+  format:
+    description: 'Set the changelog format'
+    required: false
+    default: 'compact'
+  version:
+    description: 'The version you would like the release notes for'
+    required: false
+    default: 'latest'
+  release:
+    description: 'The path to the release markdown file that will be created'
+    required: false
+    default: 'RELEASE.md'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
